@@ -64,6 +64,24 @@ nav li a{
     font-size: 35px;
     font-weight: bold;
 }
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 0px; /* আইকন ও টেক্সটের মাঝখানে ফাঁকা */
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FD6E0A;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;s
+}
+.img-size{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
 
 
 /* banner section */
@@ -90,6 +108,27 @@ nav li a{
 .banner-items-1{
    max-width: 580px;
 }
+.banner-button{
+    display: flex;
+    gap: 10px;
+}
+.banner-icon2{
+    display: flex;
+  align-items: center;
+  gap: 0px; /* আইকন ও টেক্সটের মাঝখানে ফাঁকা */
+  padding: 15px 30px;
+  font-size: 20px;
+  border: 1px solid #FD6E0A;
+  border-radius: 5px;
+  background-color: #FFF8F3;
+  color:#FD6E0A;
+  cursor: pointer;
+  transition: background-color 0.3s;s
+
+}
+
+
+
 /* about section */
 .main{
     max-width: 1140px;
@@ -159,8 +198,12 @@ nav li a{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+/* footer section */
 .footer-content1{
     width: 562px;
+}
+footer img{
+    margin-right: 24px;
 }
 .footer-container{
     display: flex;
