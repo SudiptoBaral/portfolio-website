@@ -85,7 +85,6 @@ nav li a{
     align-items: center;
 }
 .banner-profile-img{
-    width: 800px;
     height: 750px;
 }
 .banner-items-1{
@@ -158,4 +157,26 @@ nav li a{
 .button-container{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-content1{
+    width: 562px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    padding:130px 230px 0 230px ;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    width: 100%;
+    padding: 18px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    margin-bottom: 24px;
+    display: block;
 }
